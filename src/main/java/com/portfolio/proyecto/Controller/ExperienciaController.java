@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.portfolio.proyecto.Interface.ExperienciaInterface;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://portfolio-aac61.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "https://portfolio-aac61.web.app")
 public class ExperienciaController {
     
     @Autowired ExperienciaInterface experienciainterface;

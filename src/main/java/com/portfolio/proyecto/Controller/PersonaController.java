@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.portfolio.proyecto.Interface.PersonaInterface;
 
 @RestController
-@CrossOrigin(origins = "https://portfolio-aac61.web.app")
-//@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "https://portfolio-aac61.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
     
     @Autowired PersonaInterface personainterface;
